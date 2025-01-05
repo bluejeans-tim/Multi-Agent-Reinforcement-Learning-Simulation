@@ -1,0 +1,1126 @@
+/usr/local/lib/python3.12/dist-packages/stable_baselines3/common/vec_env/base_vec_env.py:77: UserWarning: The `render_mode` attribute is not defined in your environment. It will be set to None.
+  warnings.warn("The `render_mode` attribute is not defined in your environment. It will be set to None.")
+Using cpu device
+Starting iteration 0...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -93.9    |
+| time/              |          |
+|    fps             | 2131     |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 20480    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -100         |
+| time/                   |              |
+|    fps                  | 1812         |
+|    iterations           | 2            |
+|    time_elapsed         | 22           |
+|    total_timesteps      | 40960        |
+| train/                  |              |
+|    approx_kl            | 0.0070869997 |
+|    clip_fraction        | 0.0332       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.61        |
+|    explained_variance   | -0.0142      |
+|    learning_rate        | 0.0003       |
+|    loss                 | 11           |
+|    n_updates            | 10           |
+|    policy_gradient_loss | -0.00191     |
+|    value_loss           | 24.9         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -59.9        |
+| time/                   |              |
+|    fps                  | 1694         |
+|    iterations           | 3            |
+|    time_elapsed         | 36           |
+|    total_timesteps      | 61440        |
+| train/                  |              |
+|    approx_kl            | 0.0060870177 |
+|    clip_fraction        | 0.0268       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.6         |
+|    explained_variance   | -0.00851     |
+|    learning_rate        | 0.0003       |
+|    loss                 | 4.89         |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.0025      |
+|    value_loss           | 11.8         |
+------------------------------------------
+Iteration 0 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_0.zip. Mean reward: -59.865787506103516
+Starting iteration 1...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -43.6    |
+| time/              |          |
+|    fps             | 2076     |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 81920    |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -32.9       |
+| time/                   |             |
+|    fps                  | 1725        |
+|    iterations           | 2           |
+|    time_elapsed         | 23          |
+|    total_timesteps      | 102400      |
+| train/                  |             |
+|    approx_kl            | 0.006813587 |
+|    clip_fraction        | 0.0532      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.59       |
+|    explained_variance   | 0.641       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.827       |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00214    |
+|    value_loss           | 1.43        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -12.1        |
+| time/                   |              |
+|    fps                  | 1657         |
+|    iterations           | 3            |
+|    time_elapsed         | 37           |
+|    total_timesteps      | 122880       |
+| train/                  |              |
+|    approx_kl            | 0.0068526715 |
+|    clip_fraction        | 0.0383       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.58        |
+|    explained_variance   | 0.823        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.123        |
+|    n_updates            | 50           |
+|    policy_gradient_loss | -0.00206     |
+|    value_loss           | 0.374        |
+------------------------------------------
+Iteration 1 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_1.zip. Mean reward: 8.320655822753906
+Starting iteration 2...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 15.5     |
+| time/              |          |
+|    fps             | 1937     |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 143360   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 18.3        |
+| time/                   |             |
+|    fps                  | 1685        |
+|    iterations           | 2           |
+|    time_elapsed         | 24          |
+|    total_timesteps      | 163840      |
+| train/                  |             |
+|    approx_kl            | 0.012162586 |
+|    clip_fraction        | 0.0845      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.54       |
+|    explained_variance   | 0.875       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.276       |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.00431    |
+|    value_loss           | 0.664       |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 23.3         |
+| time/                   |              |
+|    fps                  | 1611         |
+|    iterations           | 3            |
+|    time_elapsed         | 38           |
+|    total_timesteps      | 184320       |
+| train/                  |              |
+|    approx_kl            | 0.0131420195 |
+|    clip_fraction        | 0.129        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.52        |
+|    explained_variance   | 0.883        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.273        |
+|    n_updates            | 80           |
+|    policy_gradient_loss | -0.00495     |
+|    value_loss           | 0.638        |
+------------------------------------------
+Iteration 2 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_2.zip. Mean reward: 32.23332214355469
+Starting iteration 3...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 27.4     |
+| time/              |          |
+|    fps             | 1894     |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 204800   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 32.4        |
+| time/                   |             |
+|    fps                  | 1617        |
+|    iterations           | 2           |
+|    time_elapsed         | 25          |
+|    total_timesteps      | 225280      |
+| train/                  |             |
+|    approx_kl            | 0.015458432 |
+|    clip_fraction        | 0.0895      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.45       |
+|    explained_variance   | 0.878       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.314       |
+|    n_updates            | 100         |
+|    policy_gradient_loss | -0.00309    |
+|    value_loss           | 0.763       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 33.9        |
+| time/                   |             |
+|    fps                  | 1539        |
+|    iterations           | 3           |
+|    time_elapsed         | 39          |
+|    total_timesteps      | 245760      |
+| train/                  |             |
+|    approx_kl            | 0.011539675 |
+|    clip_fraction        | 0.0755      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.45       |
+|    explained_variance   | 0.838       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.334       |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.00435    |
+|    value_loss           | 0.736       |
+-----------------------------------------
+Iteration 3 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_3.zip. Mean reward: 34.95199966430664
+Starting iteration 4...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 33.9     |
+| time/              |          |
+|    fps             | 1808     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 266240   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 34.3        |
+| time/                   |             |
+|    fps                  | 1481        |
+|    iterations           | 2           |
+|    time_elapsed         | 27          |
+|    total_timesteps      | 286720      |
+| train/                  |             |
+|    approx_kl            | 0.010165228 |
+|    clip_fraction        | 0.0847      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.43       |
+|    explained_variance   | 0.896       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.157       |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.00276    |
+|    value_loss           | 0.414       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 34.5        |
+| time/                   |             |
+|    fps                  | 1446        |
+|    iterations           | 3           |
+|    time_elapsed         | 42          |
+|    total_timesteps      | 307200      |
+| train/                  |             |
+|    approx_kl            | 0.008504161 |
+|    clip_fraction        | 0.0319      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.44       |
+|    explained_variance   | 0.887       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.111       |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.00174    |
+|    value_loss           | 0.405       |
+-----------------------------------------
+Iteration 4 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_4.zip. Mean reward: 32.61204528808594
+Starting iteration 5...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 33.5     |
+| time/              |          |
+|    fps             | 1801     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 327680   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 32.4        |
+| time/                   |             |
+|    fps                  | 1550        |
+|    iterations           | 2           |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 348160      |
+| train/                  |             |
+|    approx_kl            | 0.009669867 |
+|    clip_fraction        | 0.0608      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.46       |
+|    explained_variance   | 0.902       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.145       |
+|    n_updates            | 160         |
+|    policy_gradient_loss | -0.00283    |
+|    value_loss           | 0.337       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 32.2        |
+| time/                   |             |
+|    fps                  | 1483        |
+|    iterations           | 3           |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 368640      |
+| train/                  |             |
+|    approx_kl            | 0.010999224 |
+|    clip_fraction        | 0.0621      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.48       |
+|    explained_variance   | 0.885       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.136       |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.00309    |
+|    value_loss           | 0.269       |
+-----------------------------------------
+Iteration 5 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_5.zip. Mean reward: 32.511959075927734
+Starting iteration 6...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 32.2     |
+| time/              |          |
+|    fps             | 1765     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 389120   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 31.2        |
+| time/                   |             |
+|    fps                  | 1525        |
+|    iterations           | 2           |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 409600      |
+| train/                  |             |
+|    approx_kl            | 0.007835366 |
+|    clip_fraction        | 0.0252      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.44       |
+|    explained_variance   | 0.891       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.111       |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.0017     |
+|    value_loss           | 0.302       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 30.7        |
+| time/                   |             |
+|    fps                  | 1464        |
+|    iterations           | 3           |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 430080      |
+| train/                  |             |
+|    approx_kl            | 0.010247988 |
+|    clip_fraction        | 0.0528      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.41       |
+|    explained_variance   | 0.777       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.197       |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.00201    |
+|    value_loss           | 0.634       |
+-----------------------------------------
+Iteration 6 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_6.zip. Mean reward: 29.94407844543457
+Starting iteration 7...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 31.3     |
+| time/              |          |
+|    fps             | 1643     |
+|    iterations      | 1        |
+|    time_elapsed    | 12       |
+|    total_timesteps | 450560   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 30.5        |
+| time/                   |             |
+|    fps                  | 1442        |
+|    iterations           | 2           |
+|    time_elapsed         | 28          |
+|    total_timesteps      | 471040      |
+| train/                  |             |
+|    approx_kl            | 0.007097504 |
+|    clip_fraction        | 0.0187      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.39       |
+|    explained_variance   | 0.906       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0889      |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.00125    |
+|    value_loss           | 0.264       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 30.8        |
+| time/                   |             |
+|    fps                  | 1403        |
+|    iterations           | 3           |
+|    time_elapsed         | 43          |
+|    total_timesteps      | 491520      |
+| train/                  |             |
+|    approx_kl            | 0.009235011 |
+|    clip_fraction        | 0.0659      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.31       |
+|    explained_variance   | 0.912       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0833      |
+|    n_updates            | 230         |
+|    policy_gradient_loss | -0.00278    |
+|    value_loss           | 0.291       |
+-----------------------------------------
+Iteration 7 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_7.zip. Mean reward: 32.2771110534668
+Starting iteration 8...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 32.8     |
+| time/              |          |
+|    fps             | 1732     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 512000   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 33.7         |
+| time/                   |              |
+|    fps                  | 1503         |
+|    iterations           | 2            |
+|    time_elapsed         | 27           |
+|    total_timesteps      | 532480       |
+| train/                  |              |
+|    approx_kl            | 0.0063860505 |
+|    clip_fraction        | 0.0463       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.31        |
+|    explained_variance   | 0.887        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.161        |
+|    n_updates            | 250          |
+|    policy_gradient_loss | -0.00257     |
+|    value_loss           | 0.326        |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 34           |
+| time/                   |              |
+|    fps                  | 1423         |
+|    iterations           | 3            |
+|    time_elapsed         | 43           |
+|    total_timesteps      | 552960       |
+| train/                  |              |
+|    approx_kl            | 0.0066191377 |
+|    clip_fraction        | 0.0591       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.32        |
+|    explained_variance   | 0.884        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.154        |
+|    n_updates            | 260          |
+|    policy_gradient_loss | -0.00272     |
+|    value_loss           | 0.265        |
+------------------------------------------
+Iteration 8 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_8.zip. Mean reward: 35.46136474609375
+Starting iteration 9...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 35.6     |
+| time/              |          |
+|    fps             | 1674     |
+|    iterations      | 1        |
+|    time_elapsed    | 12       |
+|    total_timesteps | 573440   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 34.3         |
+| time/                   |              |
+|    fps                  | 1469         |
+|    iterations           | 2            |
+|    time_elapsed         | 27           |
+|    total_timesteps      | 593920       |
+| train/                  |              |
+|    approx_kl            | 0.0077111647 |
+|    clip_fraction        | 0.0832       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.32        |
+|    explained_variance   | 0.861        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.198        |
+|    n_updates            | 280          |
+|    policy_gradient_loss | -0.00417     |
+|    value_loss           | 0.421        |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 34.7        |
+| time/                   |             |
+|    fps                  | 1394        |
+|    iterations           | 3           |
+|    time_elapsed         | 44          |
+|    total_timesteps      | 614400      |
+| train/                  |             |
+|    approx_kl            | 0.006953633 |
+|    clip_fraction        | 0.0568      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.33       |
+|    explained_variance   | 0.679       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.164       |
+|    n_updates            | 290         |
+|    policy_gradient_loss | -0.000939   |
+|    value_loss           | 0.854       |
+-----------------------------------------
+Iteration 9 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/circle_9.zip. Mean reward: 34.97945785522461
+/usr/local/lib/python3.12/dist-packages/stable_baselines3/common/vec_env/base_vec_env.py:77: UserWarning: The `render_mode` attribute is not defined in your environment. It will be set to None.
+  warnings.warn("The `render_mode` attribute is not defined in your environment. It will be set to None.")
+Using cpu device
+Starting iteration 0...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -59.6    |
+| time/              |          |
+|    fps             | 2117     |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 20480    |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -29.2       |
+| time/                   |             |
+|    fps                  | 1802        |
+|    iterations           | 2           |
+|    time_elapsed         | 22          |
+|    total_timesteps      | 40960       |
+| train/                  |             |
+|    approx_kl            | 0.006964577 |
+|    clip_fraction        | 0.0428      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.6        |
+|    explained_variance   | -0.016      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.12        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00214    |
+|    value_loss           | 8.84        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -19.1       |
+| time/                   |             |
+|    fps                  | 1725        |
+|    iterations           | 3           |
+|    time_elapsed         | 35          |
+|    total_timesteps      | 61440       |
+| train/                  |             |
+|    approx_kl            | 0.007879063 |
+|    clip_fraction        | 0.0436      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.6        |
+|    explained_variance   | 0.203       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.27        |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.00357    |
+|    value_loss           | 5.61        |
+-----------------------------------------
+Iteration 0 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_0.zip. Mean reward: -19.11119842529297
+Starting iteration 1...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -13.7    |
+| time/              |          |
+|    fps             | 2041     |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 81920    |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -9.45       |
+| time/                   |             |
+|    fps                  | 1779        |
+|    iterations           | 2           |
+|    time_elapsed         | 23          |
+|    total_timesteps      | 102400      |
+| train/                  |             |
+|    approx_kl            | 0.005720525 |
+|    clip_fraction        | 0.0238      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.59       |
+|    explained_variance   | 0.521       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.833       |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00222    |
+|    value_loss           | 1.91        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 3.86        |
+| time/                   |             |
+|    fps                  | 1692        |
+|    iterations           | 3           |
+|    time_elapsed         | 36          |
+|    total_timesteps      | 122880      |
+| train/                  |             |
+|    approx_kl            | 0.011465135 |
+|    clip_fraction        | 0.0874      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.57       |
+|    explained_variance   | 0.69        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.478       |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.00219    |
+|    value_loss           | 1.21        |
+-----------------------------------------
+Iteration 1 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_1.zip. Mean reward: 5.683565139770508
+Starting iteration 2...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 8.22     |
+| time/              |          |
+|    fps             | 1996     |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 143360   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 11.3        |
+| time/                   |             |
+|    fps                  | 1710        |
+|    iterations           | 2           |
+|    time_elapsed         | 23          |
+|    total_timesteps      | 163840      |
+| train/                  |             |
+|    approx_kl            | 0.013319336 |
+|    clip_fraction        | 0.0803      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.54       |
+|    explained_variance   | 0.717       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.509       |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.00334    |
+|    value_loss           | 1.1         |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 16.1        |
+| time/                   |             |
+|    fps                  | 1617        |
+|    iterations           | 3           |
+|    time_elapsed         | 37          |
+|    total_timesteps      | 184320      |
+| train/                  |             |
+|    approx_kl            | 0.009591865 |
+|    clip_fraction        | 0.0939      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.51       |
+|    explained_variance   | 0.854       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.232       |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.00353    |
+|    value_loss           | 0.772       |
+-----------------------------------------
+Iteration 2 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_2.zip. Mean reward: 22.10919761657715
+Starting iteration 3...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 21       |
+| time/              |          |
+|    fps             | 1709     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 204800   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 26          |
+| time/                   |             |
+|    fps                  | 1552        |
+|    iterations           | 2           |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 225280      |
+| train/                  |             |
+|    approx_kl            | 0.010488837 |
+|    clip_fraction        | 0.0631      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.49       |
+|    explained_variance   | 0.89        |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.146       |
+|    n_updates            | 100         |
+|    policy_gradient_loss | -0.00405    |
+|    value_loss           | 0.406       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 28.2        |
+| time/                   |             |
+|    fps                  | 1508        |
+|    iterations           | 3           |
+|    time_elapsed         | 40          |
+|    total_timesteps      | 245760      |
+| train/                  |             |
+|    approx_kl            | 0.011743166 |
+|    clip_fraction        | 0.0985      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.49       |
+|    explained_variance   | 0.9         |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0912      |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.00383    |
+|    value_loss           | 0.291       |
+-----------------------------------------
+Iteration 3 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_3.zip. Mean reward: 32.61327362060547
+Starting iteration 4...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 31.6     |
+| time/              |          |
+|    fps             | 1815     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 266240   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 33.3        |
+| time/                   |             |
+|    fps                  | 1573        |
+|    iterations           | 2           |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 286720      |
+| train/                  |             |
+|    approx_kl            | 0.011927659 |
+|    clip_fraction        | 0.0644      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.48       |
+|    explained_variance   | 0.893       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.147       |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.00525    |
+|    value_loss           | 0.282       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 34          |
+| time/                   |             |
+|    fps                  | 1507        |
+|    iterations           | 3           |
+|    time_elapsed         | 40          |
+|    total_timesteps      | 307200      |
+| train/                  |             |
+|    approx_kl            | 0.008223705 |
+|    clip_fraction        | 0.0571      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.46       |
+|    explained_variance   | 0.897       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.113       |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.00241    |
+|    value_loss           | 0.313       |
+-----------------------------------------
+Iteration 4 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_4.zip. Mean reward: 34.634029388427734
+Starting iteration 5...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 34.7     |
+| time/              |          |
+|    fps             | 1794     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 327680   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 35.1         |
+| time/                   |              |
+|    fps                  | 1562         |
+|    iterations           | 2            |
+|    time_elapsed         | 26           |
+|    total_timesteps      | 348160       |
+| train/                  |              |
+|    approx_kl            | 0.0048946654 |
+|    clip_fraction        | 0.0183       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.44        |
+|    explained_variance   | 0.856        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.141        |
+|    n_updates            | 160          |
+|    policy_gradient_loss | -0.00133     |
+|    value_loss           | 0.28         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 36          |
+| time/                   |             |
+|    fps                  | 1472        |
+|    iterations           | 3           |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 368640      |
+| train/                  |             |
+|    approx_kl            | 0.004756271 |
+|    clip_fraction        | 0.0206      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.41       |
+|    explained_variance   | 0.901       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.129       |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.00222    |
+|    value_loss           | 0.271       |
+-----------------------------------------
+Iteration 5 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_5.zip. Mean reward: 36.4201545715332
+Starting iteration 6...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 35.9     |
+| time/              |          |
+|    fps             | 1801     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 389120   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 36.7         |
+| time/                   |              |
+|    fps                  | 1540         |
+|    iterations           | 2            |
+|    time_elapsed         | 26           |
+|    total_timesteps      | 409600       |
+| train/                  |              |
+|    approx_kl            | 0.0086083915 |
+|    clip_fraction        | 0.0282       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.35        |
+|    explained_variance   | 0.87         |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.216        |
+|    n_updates            | 190          |
+|    policy_gradient_loss | -0.0021      |
+|    value_loss           | 0.3          |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 37.6        |
+| time/                   |             |
+|    fps                  | 1479        |
+|    iterations           | 3           |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 430080      |
+| train/                  |             |
+|    approx_kl            | 0.006721683 |
+|    clip_fraction        | 0.0406      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.36       |
+|    explained_variance   | 0.922       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.148       |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.00277    |
+|    value_loss           | 0.261       |
+-----------------------------------------
+Iteration 6 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_6.zip. Mean reward: 37.90940475463867
+Starting iteration 7...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 38.3     |
+| time/              |          |
+|    fps             | 1713     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 450560   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 37.7        |
+| time/                   |             |
+|    fps                  | 1504        |
+|    iterations           | 2           |
+|    time_elapsed         | 27          |
+|    total_timesteps      | 471040      |
+| train/                  |             |
+|    approx_kl            | 0.007589735 |
+|    clip_fraction        | 0.0435      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.24       |
+|    explained_variance   | 0.882       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.106       |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.00237    |
+|    value_loss           | 0.481       |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 39           |
+| time/                   |              |
+|    fps                  | 1445         |
+|    iterations           | 3            |
+|    time_elapsed         | 42           |
+|    total_timesteps      | 491520       |
+| train/                  |              |
+|    approx_kl            | 0.0062843114 |
+|    clip_fraction        | 0.0575       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.22        |
+|    explained_variance   | 0.926        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.183        |
+|    n_updates            | 230          |
+|    policy_gradient_loss | -0.00301     |
+|    value_loss           | 0.341        |
+------------------------------------------
+Iteration 7 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_7.zip. Mean reward: 38.33562088012695
+Starting iteration 8...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 37.7     |
+| time/              |          |
+|    fps             | 1732     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 512000   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 38.2        |
+| time/                   |             |
+|    fps                  | 1490        |
+|    iterations           | 2           |
+|    time_elapsed         | 27          |
+|    total_timesteps      | 532480      |
+| train/                  |             |
+|    approx_kl            | 0.008242816 |
+|    clip_fraction        | 0.0576      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.22       |
+|    explained_variance   | 0.903       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.228       |
+|    n_updates            | 250         |
+|    policy_gradient_loss | -0.00262    |
+|    value_loss           | 0.303       |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | 38.9        |
+| time/                   |             |
+|    fps                  | 1391        |
+|    iterations           | 3           |
+|    time_elapsed         | 44          |
+|    total_timesteps      | 552960      |
+| train/                  |             |
+|    approx_kl            | 0.007195367 |
+|    clip_fraction        | 0.0568      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.19       |
+|    explained_variance   | 0.909       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.191       |
+|    n_updates            | 260         |
+|    policy_gradient_loss | -0.00396    |
+|    value_loss           | 0.358       |
+-----------------------------------------
+Iteration 8 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_8.zip. Mean reward: 40.244136810302734
+Starting iteration 9...
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+Logging to /home/peas/Documents/Collective Intelligence/formation-tim/logs/tensorboard/PPO_0
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 39       |
+| time/              |          |
+|    fps             | 1719     |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 573440   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 38.9         |
+| time/                   |              |
+|    fps                  | 1484         |
+|    iterations           | 2            |
+|    time_elapsed         | 27           |
+|    total_timesteps      | 593920       |
+| train/                  |              |
+|    approx_kl            | 0.0031165045 |
+|    clip_fraction        | 0.0138       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.2         |
+|    explained_variance   | 0.799        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.193        |
+|    n_updates            | 280          |
+|    policy_gradient_loss | -0.00154     |
+|    value_loss           | 0.675        |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | 38.9         |
+| time/                   |              |
+|    fps                  | 1411         |
+|    iterations           | 3            |
+|    time_elapsed         | 43           |
+|    total_timesteps      | 614400       |
+| train/                  |              |
+|    approx_kl            | 0.0050744326 |
+|    clip_fraction        | 0.0284       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.11        |
+|    explained_variance   | 0.907        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 0.168        |
+|    n_updates            | 290          |
+|    policy_gradient_loss | -0.00198     |
+|    value_loss           | 0.323        |
+------------------------------------------
+Iteration 9 complete. Model saved at /home/peas/Documents/Collective Intelligence/formation-tim/models/rectangle_9.zip. Mean reward: 36.93732452392578
